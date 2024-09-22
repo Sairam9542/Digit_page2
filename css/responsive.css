@@ -1,0 +1,148 @@
+@media only screen and (max-width: 767px) {
+
+    /*Top bar CSS Starts*/
+    .topbar {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .topbar-social {
+        padding-top: 16px;
+    }
+
+    /*Top bar CSS Ends*/
+
+    /*Header Section CSS Starts*/
+    .main-header {
+        padding: 6px 20px;
+        flex-direction: column;
+    }
+
+    .navbar ul li a {
+        padding-left: 14px;
+        font-size: 10px;
+    }
+
+    .navbar ul {
+        padding-top: 16px;
+    }
+
+    /*Header Section CSS Ends*/
+
+    /*Banner Section CSS Starts*/
+
+      .main-content h1 {
+        font-size: 32px;
+      }
+    /*Banner Section CSS Ends*/
+
+    /*About Us  Section CSS*/
+
+    .about_us {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+    /*About Us  Section CSS*/
+
+     /*Course Section CSS Starts*/
+
+    .our_courses {
+        padding: 20px;
+        background-color: #e4e4e4;
+    }
+
+    .all_courses {
+        grid-template-columns: 1fr;
+    }
+     /*Course Section CSS Ends*/
+
+     /*Footer Section CSS Starts*/
+    footer {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .useful_links h4,
+    .subscribe_newsletter h4 {
+        padding-top: 30px;
+    }
+
+    .copy_right {
+        padding: 20px;
+    }
+    /*Footer Section CSS Ends*/
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+/*Top bar CSS Starts*/
+.topbar {
+    padding: 10px 40px;
+    flex-direction: column;
+}
+
+.topbar-social {
+    padding-top: 16px;
+}
+
+/*Top bar CSS Ends*/
+
+/*Header Section CSS Starts*/
+.main-header {
+    padding: 6px 40px;
+}
+
+.navbar ul li a {
+    padding-left: 14px;
+    font-size: 10px;
+}
+
+.navbar ul {
+    padding-top: 16px;
+}
+
+/*Header Section CSS Ends*/
+
+/*About Us  Section CSS*/
+
+.about_us {
+
+    padding: 40px;
+
+}
+/*About Us  Section CSS*/
+
+/*Course Section CSS Starts*/
+
+.our_courses {
+    padding: 20px 40px;
+    background-color: #e4e4e4;
+}
+
+ /*Course Section CSS Ends*/
+
+ /*Footer Section CSS Starts*/
+ footer {
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.useful_links h4,
+.subscribe_newsletter h4 {
+    padding-top: 30px;
+}
+
+.subscribe_newsletter  {
+    position: relative;
+    bottom: 30%;
+    right:20%;
+}
+
+.copy_right {
+    padding: 20px 40px;
+}
+/*Footer Section CSS Ends*/
+
+}
